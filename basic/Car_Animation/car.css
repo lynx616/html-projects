@@ -104,4 +104,18 @@ overflow-x: hidden;
     font-size: 350px;
     color: white;
     margin-left: 12%;
+    opacity: 0%;
+    animation: visi 1s linear infinite alternate ;
+    transition: opacity 1s ;
+}
+@keyframes visi{
+    /* 0%{
+        opacity: 0%;
+    } 
+    50%{
+        opacity: 50%;
+    }  */
+    100%{
+        opacity: 100%;
+    }
 }
