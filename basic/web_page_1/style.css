@@ -64,3 +64,120 @@ ul li a:hover{
 .icon{
     display: inline;
 }
+#about-menu{
+    margin-left: 13.75%;
+}
+#help-menu{
+    margin-left: 21.80%;
+}
+#home-menu{
+    margin-left: 22.47%;
+}
+.form{
+    width: 20%;
+    height: 48%;
+    position: absolute;
+    top: 25%;
+    left: 68%;
+    background-color: rgba(255,255,255, 0.2);
+    border-radius: 10px;
+    padding: 25px;
+    /* border: 1px solid white; */
+    font-family: 'Megrim', cursive;
+    color: white;
+    transition: .4s ease-in-out;
+}
+.form:hover{
+   padding-bottom: 40px;
+    background-color: rgba(255,255,255, 0.2);
+}
+.form h1{
+    text-align: center;
+    letter-spacing: 0px;
+    transition: .4s ease-in-out;
+}
+.form h1:hover{
+  letter-spacing: 5px;
+ 
+}
+.form input{
+    width: 240px;
+    /* height: 35px; */
+    background: transparent;
+    border-bottom: 1px solid red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+    color: red;
+    letter-spacing: 2px;
+    transition: .4s ease-in-out;
+}
+.form input:hover{
+    letter-spacing: 4px;
+}
+input::placeholder{
+    color: white;
+  }
+  .btn{
+    width: 85px;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 23px;
+    padding-left: 8px;
+    margin-top: 5%;
+    margin-left: 35%;
+    background: transparent;
+    border: 1px solid red;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+     border-radius: 10px;
+     letter-spacing: 3px;
+  }
+  .btn:hover{
+    letter-spacing: 8px;
+    background-color: rgba(255, 0, 0, 0.4);
+    font-weight: bold;
+  }
+ .btn a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Megrim', cursive;
+    
+   
+ }
+ .link{
+    margin-top: 5%;
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: 1px; 
+    font-weight: 100;
+    transition: .4s ease-in-out;
+   
+ }
+ .link:hover{
+    letter-spacing: 4px;
+    font-weight: bold;
+ }
+ .fp{
+    margin-top: 5%;
+    text-align: center;
+    letter-spacing: 1px; 
+    transition: .4s ease-in-out;
+ }
+ .fp:hover{
+    letter-spacing: 4px;
+    font-weight: bold;
+ }
+ a{
+    
+    text-decoration: none;
+    color: white;
+ }
+
+
+ 
+ 
+
+ 
+ 
