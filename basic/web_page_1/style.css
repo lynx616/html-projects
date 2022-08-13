@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    /* border: 1px solid white; */
 }
 .main{
     width: 100%;
@@ -183,10 +184,63 @@ input::placeholder{
     text-decoration: none;
     color: white;
  }
-
-
- 
- 
+#contact-page{
+    /* border: 3px solid green; */
+    width: 100%; 
+    color: white;
+    /* margin-left: 25%;
+    margin-right: 25%; */
+    text-align: center;
+    
+}
+.navigation{
+    text-align: center;
+    height: 35%;
+ /* border: 3px solid yellow; */
+}
+ #heading{
+    font-size: 75px;
+    font-family: 'Great Vibes', cursive;
+    margin-right:0;
+    margin-left: 0;
+    opacity: 35%;
+    animation: motion 2s alternate;
+    transition: .4s;
+}
+#heading:hover{
+    opacity: 100%;
+    font-size: 85px;
+    letter-spacing: 2px;
+    
+} 
+ @keyframes motion{
+    0%{
+        margin-right: 0%;
+        opacity: 0%;
+       
+    }
+    50%{
+        /* margin-right: 20%; */
+        opacity: 100%;
+        letter-spacing: 20px;
+    }
+    100%{
+        margin-right: 0%;
+        opacity: 35%;
+    }
+ }
+ #para{
+    /* width: 800%;
+    margin-left: 10%;
+    margin-right: 10%; */
+    margin-top: 1%;
+    font-size: 25px; 
+    font-family: 'Silkscreen', cursive;
+    
+ }
+/* #contact-page h1{
+    font-family: 'Great Vibes', cursive;
+ } */
 
  
  
