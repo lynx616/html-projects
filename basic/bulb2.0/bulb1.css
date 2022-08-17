@@ -1,0 +1,58 @@
+
+body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: url("back.jpg");
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    z-index: -1;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+.bulb-before{
+    width: 35%;
+    height: 85vh;
+    background-image: url("before.png");
+    background-repeat: no-repeat;
+    z-index: 0;
+    /* border: 1px solid red; */
+    /* margin-top: 13%; */
+    margin-bottom: 6%;
+   
+    transition: 1.5s ease-in-out;   
+}
+/* .bulb-before:hover{
+   
+    background-image: url("after.png");
+    animation: blink .15s linear;
+    animation-iteration-count: 2;
+    animation-delay: .5s;
+    
+
+} */
+@keyframes blink{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+#ok-btn{
+    border:none;
+    border-radius: 10px;
+    padding: 11px;
+    width: 110px;
+    
+    font-size: 30px;
+    
+    color: white;
+    font-family: 'Teko', sans-serif;
+    background: url("https://adoption.microsoft.com/files/microsoft-teams/custom-backgrounds-gallery/community/nature/community-nature-Teams-background-5.JPG");
+    margin-top: 99%;
+    margin-left: 37.5%;
+    float: left;
+    cursor: pointer;
+}
