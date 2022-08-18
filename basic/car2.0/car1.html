@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="car1.css">
+    <link rel="icon" href="taxi.png">
+    <title>Car animation2.0</title>
+</head>
+<body>
+    <div class="sky">
+        <div id="text">Drive</div>
+        <div class="highway"></div>
+        <div class="city"></div>
+        <div class="car">
+            <img id="car-img" src="car.png" alt="">
+        </div>
+        <div class="wheel">
+            <img src="wheel.png" alt="" class="back-wheel">
+            <img src="wheel.png" alt="" class="front-wheel">
+        </div>
+
+
+    </div> 
+    <script>
+        var drivebutton=document.querySelector("#text");
+        var highwaybutton=document.querySelector(".highway");
+        var ghorbaributton=document.querySelector(".city");
+        var gaributton=document.querySelector("#car-img");
+        var pechonerchaka=document.querySelector(".wheel img");
+        var samnerchaka=document.querySelector(".front-wheel");
+        gaributton.onclick=function(){
+            drivebutton.style.animation="visi 1s linear infinite alternate";
+            highwaybutton.style.animation="highway 1s linear infinite";
+            ghorbaributton.style.animation="highway 20s linear infinite";
+            gaributton.style.animation="car 1s linear infinite";
+            pechonerchaka.style.animation="wheel .4s linear infinite";
+            samnerchaka.style.animation="wheel .4s linear infinite";
+        }
+    </script>
+    
+</body>
+</html>
