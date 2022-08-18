@@ -38,10 +38,11 @@ body{
   #fan{
     width: 12%;
     position: relative;
-    margin-top:15.5% ;
-    margin-left: 44.55%;
+    margin-top:15.6% ;
+    margin-left: 44.6%;
     z-index: 1;
-    animation: rotate .5s linear infinite ; 
+    /* animation: rotate .5s linear infinite ;  */
+    /* border: 1px solid red; */
     
   }
   /* #fan:hover{
@@ -49,12 +50,12 @@ body{
     
     
   }*/
-  /* @keyframes rotate{
+  @keyframes rotate{
     100%{
         transform: rotate(360deg);
        
     }
-  }  */
+  } 
   h1{
     font-size: 3em;
     margin: 0;

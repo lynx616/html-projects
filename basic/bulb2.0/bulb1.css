@@ -50,7 +50,7 @@ body{
     
     color: white;
     font-family: 'Teko', sans-serif;
-    background: url("https://adoption.microsoft.com/files/microsoft-teams/custom-backgrounds-gallery/community/nature/community-nature-Teams-background-5.JPG");
+    background: rgba(0, 0, 0, 0.4);
     margin-top: 99%;
     margin-left: 37.5%;
     float: left;
