@@ -1,0 +1,48 @@
+body{
+   
+    height: 100vh;
+    background: url(http://store-images.s-microsoft.com/image/apps.23032.13608622719434797.30372fd8-b4bd-41c0-beea-1c2a61e087c1.a8347bb5-9305-48e8-b668-08df54c5a91a);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bigbox{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    
+}
+
+.innerbox{
+    margin-top: 2%;
+    width: 300px;
+    border-radius: 10px;
+     background: linear-gradient(to bottom, #ff0066 27%, #ffffff 5%); 
+   
+    height: 25vh;
+    text-align: center;
+}
+p{
+    font-size: 3em;
+    white-space: inherit;
+    margin-top: 20%;
+    font-family: 'Rubik Maze', cursive;
+}
+@media (max-width:300px) {
+    .innerbox{
+        width: 100%;
+    }
+    p{
+        width:100%;
+    }
+    
+}
+#calender{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik Maze', cursive;
+    font-size: 4em;
+    color: white;
+}
