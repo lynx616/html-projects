@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    transition: .1s ease-in-out;
+    transition: .2s ease-in-out;
 }
 body{
     display: flex;
@@ -36,14 +36,20 @@ body{
 }
 #display{
     /* justify-self: flex-start; */
-    border: none;
+    border: 5px solid transparent;
     width: 80%;
-    height: 17%;
+    height: 12%;
     border-radius: 30px;
     margin-bottom: 8px;
     font-size: 25px;
     font-family: 'Silkscreen', cursive;
     padding-left: 15px;
+    outline: none;
+    line-height: 20px;
+}
+#display:hover{
+    background: rgba(255, 255, 255, 0.3);
+    border: 5px solid white;
 }
 .btn{
     border: none;
@@ -59,10 +65,11 @@ body{
    
 }
 .btn:hover{
-    opacity: 50%;
+    /* opacity: 50%;
     width: 55px;
-    height: 55px;
-
+    height: 55px; */
+    background: rgba(255, 255, 255, 0.3);
+    border: 2px solid white;
 }
 .operator{
     border: none;
@@ -76,9 +83,8 @@ body{
     margin: 1.5px;
 }
 .operator:hover{
-    opacity: 50%;
-    width: 55px;
-    height: 55px;
+    background: rgba(255, 255, 255, 0.3);
+    border: 2px solid white;
 
 }
 #zero{
@@ -91,17 +97,23 @@ body{
     
 }
 #zero:hover{
-    opacity: 50%;
-    width: 120px;
-    height: 55px;
+    background: rgba(255, 255, 255, 0.3);
+    border: 2px solid white;
 
 }
 h1{
+    width: 35%;
+    margin: 0 auto;
     height: 100px;
     text-align: center;
     color: white;
     margin-top: -5%;
     font-size: 70px;
     padding-bottom: 10px;
+    letter-spacing: 2px;
     font-family: 'Qwitcher Grypen', cursive;
+}
+h1:hover{
+    letter-spacing: 5px;
+    font-size: 75px;
 }
